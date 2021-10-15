@@ -35,6 +35,13 @@ function PlantPage() {
     })
   }
 
+  function handleDelete(id) {
+    fetch(`http://localhost:6001/plants/${id}`, {
+      method: 'DELETE'
+    })
+    setPlants(plants.filter(plant => plant.id !== id))
+  }
+
   return (
     <main>
       <NewPlantForm onAddPlant={onAddPlant}/>
@@ -44,6 +51,7 @@ function PlantPage() {
       />
       <PlantList
       plants={plantsToDisplay}
+      handleDelete={handleDelete}
       />
     </main>
   );
