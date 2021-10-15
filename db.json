@@ -47,6 +47,12 @@
       "price": "7.5",
       "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/02/Rosemary-sprig-7d96e10.jpg?quality=90&resize=550%2C500",
       "id": 8
+    },
+    {
+      "name": "Hummingbird Sage",
+      "price": "18.50",
+      "image": "https://calscape.com/ExtData/allimages/Photos/Salvia_spathacea_image16.jpg",
+      "id": 9
     }
   ]
 }

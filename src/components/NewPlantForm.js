@@ -1,7 +1,5 @@
 import React, {useState} from "react";
 
-
-
 function NewPlantForm( {onAddPlant} ) {
 
   const [newPlant, setNewPlant] = useState({
@@ -18,9 +16,7 @@ function NewPlantForm( {onAddPlant} ) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(newPlant)
     onAddPlant(newPlant)
-    console.log('after')
   }
 
   return (
