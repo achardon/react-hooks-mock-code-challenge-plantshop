@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "rosemary",
+      "price": "7.5",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/02/Rosemary-sprig-7d96e10.jpg?quality=90&resize=550%2C500",
+      "id": 8
     }
   ]
 }
