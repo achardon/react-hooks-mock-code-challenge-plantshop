@@ -13,40 +13,22 @@
       "price": 25.98
     },
     {
-      "id": 3,
-      "name": "Pilea peperomioides",
-      "image": "./images/pilea.jpg",
-      "price": 5.99
-    },
-    {
-      "id": 4,
-      "name": "Pothos",
-      "image": "./images/pothos.jpg",
-      "price": 12.11
-    },
-    {
-      "id": 5,
-      "name": "Jade",
-      "image": "./images/jade.jpg",
-      "price": 10.37
-    },
-    {
       "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
       "price": 25.99
     },
     {
-      "id": 7,
-      "name": "Fiddle Leaf Fig",
-      "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
-    },
-    {
       "name": "Rosemary",
-      "price": "4.50",
+      "price": "4",
       "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/02/Rosemary-sprig-7d96e10.jpg?quality=90&resize=550%2C500",
       "id": 8
+    },
+    {
+      "name": "Sage",
+      "price": "10",
+      "image": "https://cdn.shopify.com/s/files/1/2809/3916/products/MEDIUM_a49fd23c-208e-4c0c-a307-dfa5c44fb617_1024x1024@2x.jpg?v=1568915755",
+      "id": 9
     }
   ]
 }

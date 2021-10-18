@@ -1,8 +1,9 @@
 import React, {useState} from "react";
 
-function PlantCard( {plant, handleDelete} ) {
+function PlantCard( {plant, handleDelete, handlePriceEdit} ) {
 
   const [inStock, setInStock] = useState(true)
+  //const [currentPrice, setCurrentPrice] = useState(plant.price)
 
   function handleClick() {
     setInStock((currentStock) => !currentStock)
@@ -12,7 +13,14 @@ function PlantCard( {plant, handleDelete} ) {
     <li className="card">
       <img src={plant.image} alt={plant.name} />
       <h4>{plant.name}</h4>
-      <p>Price: {plant.price}</p>
+      <p> Price: 
+        <span //contentEditable="true"
+        // value={currentPrice}
+        // onChange={(e)=> console.log(e.target.value)}
+        > {plant.price}</span>
+        <button onClick={() => handlePriceEdit(plant)}>Edit Price</button>
+      </p>
+      
       {inStock ? (
         <button className="primary"
         onClick={handleClick}
